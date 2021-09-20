@@ -2,7 +2,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
-import { Navibar } from '../src/Components/NaviBar';
+import  Navibar  from './Components/NaviBar';
 
 function App() {
   return (
