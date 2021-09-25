@@ -1,8 +1,7 @@
 /* eslint-disable no-unused-vars */
 
 import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import Jumb from './Components/Jumb';
+import { Container, Row, Col, Card, Button, } from 'react-bootstrap';
 import Slider from './Components/Slider';
 import skala from './skala.jpg';
 
@@ -58,6 +57,6 @@ export const Home = () => (
             </Col>
         </Row>
     </Container>
-    <Jumb />
+    
     </>
 )
