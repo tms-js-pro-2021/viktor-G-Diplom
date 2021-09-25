@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import Jumbotron from './Components/Jumbotron';
+import Jumb from './Components/Jumb';
 import Slider from './Components/Slider';
 import skala from './skala.jpg';
 
@@ -58,6 +58,6 @@ export const Home = () => (
             </Col>
         </Row>
     </Container>
-    <Jumbotron />
+    <Jumb />
     </>
 )
