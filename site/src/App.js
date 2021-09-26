@@ -5,7 +5,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import  Navibar  from './Components/NaviBar';
-
+import  Footer  from './Components/Footer';
 
 import {
   BrowserRouter as Router,
@@ -30,6 +30,7 @@ function App() {
       <Route path="/about" component={About} />
     </Switch>
     </Router>
+    <Footer />
     </>
   );
 }

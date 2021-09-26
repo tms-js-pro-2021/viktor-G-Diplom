@@ -45,6 +45,46 @@ export default function Slider() {
                <p>Create your new site</p>
            </Carousel.Caption>
            
+           
         </Carousel.Item>
+        
+        <Carousel.Item style={{'height': '600px'}} >
+           <img
+            className="d-block w-100"
+            src={skalab}
+            alt="First slide"
+           />
+           <Carousel.Caption>
+               <h3>Make your Desijn</h3>
+               <p>Create your new site</p>
+           </Carousel.Caption>
+           
+           
+        </Carousel.Item>
+        <Carousel.Item style={{'height': '600px'}} >
+           <img
+            className="d-block w-100"
+            src={skalab}
+            alt="First slide"
+           />
+           <Carousel.Caption>
+               <h3>Make your Desijn</h3>
+               <p>Create your new site</p>
+           </Carousel.Caption>
+           
+           
+        </Carousel.Item>
+        <Carousel.Item style={{'height': '600px'}} >
+           <img
+            className="d-block w-100"
+            src={skalab}
+            alt="First slide"
+           />
+           <Carousel.Caption>
+               <h3>Make your Desijn</h3>
+               <p>Create your new site</p>
+           </Carousel.Caption>
+        </Carousel.Item>
+        
     </Carousel>
 )}
