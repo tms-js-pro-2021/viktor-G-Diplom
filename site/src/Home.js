@@ -7,7 +7,14 @@ import React from 'react';
 import { Container, Row, Col, Card, Button, } from 'react-bootstrap';
 import Slider from './Components/Slider';
 import skala from './skala.jpg';
+import dis from './dis.jpg';
+import dis6 from './dis6.jpg';
+import dis2 from './dis2.jpg';
+import dis3 from './dis3.jpg';
+import dis4 from './dis4.jpg';
+import dis5 from './dis5.jpg';
 import skalab from './skalab.jpg';
+
 
 
 export const Home = () => (
@@ -17,7 +24,7 @@ export const Home = () => (
         <Row style={{grid:'30px'}}>
             <Col style={{color:'black'}}>
             <Card style={{width:'20rem'}}> 
-               <Card.Img variant="top" src={skala}/>
+               <Card.Img variant="top" src={dis}/>
                <Card.Body>
                    <Card.Title>My make Card</Card.Title>
                    <Card.Text>Prepared by experienced English teachers, 
@@ -32,7 +39,7 @@ export const Home = () => (
             </Col>
             <Col style={{color:'black'}}>
             <Card style={{width:'20rem'}}> 
-               <Card.Img variant="top" src={skala}/>
+               <Card.Img variant="top" src={dis6}/>
                <Card.Body>
                    <Card.Title>My make Card</Card.Title>
                    <Card.Text>Prepared by experienced English teachers, 
@@ -47,7 +54,7 @@ export const Home = () => (
             </Col>
             <Col>
             <Card style={{width:'20rem'}}> 
-               <Card.Img variant="top" src={skala}/>
+               <Card.Img variant="top" src={dis2}/>
                <Card.Body>
                    <Card.Title>My make Card</Card.Title>
                    <Card.Text>Prepared by experienced English teachers, 
@@ -62,7 +69,7 @@ export const Home = () => (
             </Col>
             <Col>
             <Card style={{width:'20rem',marginTop:'40px'}}> 
-               <Card.Img variant="top" src={skala}/>
+               <Card.Img variant="top" src={dis3}/>
                <Card.Body>
                    <Card.Title>My make Card</Card.Title>
                    <Card.Text>Prepared by experienced English teachers, 
@@ -77,7 +84,7 @@ export const Home = () => (
             </Col>
             <Col style={{color:'black',}}>
             <Card style={{width:'20rem',marginTop:'40px'}}> 
-               <Card.Img variant="top" src={skala}/>
+               <Card.Img variant="top" src={dis4}/>
                <Card.Body>
                    <Card.Title>My make Card</Card.Title>
                    <Card.Text>Prepared by experienced English teachers, 
@@ -92,7 +99,7 @@ export const Home = () => (
             </Col>
             <Col style={{color:'black'}}>
             <Card style={{width:'20rem',marginTop:'40px'}}> 
-               <Card.Img variant="top" src={skala}/>
+               <Card.Img variant="top" src={dis5}/>
                <Card.Body>
                    <Card.Title>My make Card</Card.Title>
                    <Card.Text>Prepared by experienced English teachers, 
@@ -110,7 +117,7 @@ export const Home = () => (
     </Container>
     <Container style={{marginBottom:'30px',background:'white'}}>
         <Col md={7}>
-           <img src={skalab} height={800}  />
+           <img src={dis2} height={800}  />
            <h1>My new site</h1>
            
         </Col>

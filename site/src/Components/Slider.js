@@ -10,7 +10,7 @@ export default function Slider() {
 
     return (
     <Carousel>
-        <Carousel.Item style={{'height': '600px'}}>
+        <Carousel.Item style={{'height': '700px'}}>
            <img
             className="d-block w-100"
             src={inter}
@@ -22,7 +22,7 @@ export default function Slider() {
            </Carousel.Caption>
            
         </Carousel.Item>
-        <Carousel.Item style={{'height': '600px'}} >
+        <Carousel.Item style={{'height': '700px'}} >
            <img
             className="d-block w-100"
             src={inter3}
@@ -34,7 +34,7 @@ export default function Slider() {
            </Carousel.Caption>
            
         </Carousel.Item>
-        <Carousel.Item style={{'height': '600px'}} >
+        <Carousel.Item style={{'height': '700px'}} >
            <img
             className="d-block w-100"
             src={inter3}
@@ -48,7 +48,7 @@ export default function Slider() {
            
         </Carousel.Item>
         
-        <Carousel.Item style={{'height': '600px'}} >
+        <Carousel.Item style={{'height': '700px'}} >
            <img
             className="d-block w-100"
             src={inter3}
@@ -61,7 +61,7 @@ export default function Slider() {
            
            
         </Carousel.Item>
-        <Carousel.Item style={{'height': '600px'}} >
+        <Carousel.Item style={{'height': '700px'}} >
            <img
             className="d-block w-100"
             src={inter2}
@@ -74,7 +74,7 @@ export default function Slider() {
            
            
         </Carousel.Item>
-        <Carousel.Item style={{'height': '600px'}} >
+        <Carousel.Item style={{'height': '700px'}} >
            <img
             className="d-block w-100"
             src={inter}
