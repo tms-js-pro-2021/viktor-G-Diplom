@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-pascal-case */
 import React from "react";
 import { Carousel } from 'react-bootstrap';
-import ocen from '../ocen.jpg';
-import skala from '../skala.jpg';
-import skalab from '../skalab.jpg';
+import inter from '../inter.jpg';
+import inter2 from '../inter2.jpg';
+import inter3 from '../inter3.jpg';
 
 
 export default function Slider() {
@@ -13,7 +13,7 @@ export default function Slider() {
         <Carousel.Item style={{'height': '600px'}}>
            <img
             className="d-block w-100"
-            src={ocen}
+            src={inter}
             alt="First slide"
            />
            <Carousel.Caption>
@@ -25,7 +25,7 @@ export default function Slider() {
         <Carousel.Item style={{'height': '600px'}} >
            <img
             className="d-block w-100"
-            src={skala}
+            src={inter3}
             alt="First slide"
            />
            <Carousel.Caption>
@@ -37,7 +37,7 @@ export default function Slider() {
         <Carousel.Item style={{'height': '600px'}} >
            <img
             className="d-block w-100"
-            src={skalab}
+            src={inter3}
             alt="First slide"
            />
            <Carousel.Caption>
@@ -51,7 +51,7 @@ export default function Slider() {
         <Carousel.Item style={{'height': '600px'}} >
            <img
             className="d-block w-100"
-            src={skalab}
+            src={inter3}
             alt="First slide"
            />
            <Carousel.Caption>
@@ -64,7 +64,7 @@ export default function Slider() {
         <Carousel.Item style={{'height': '600px'}} >
            <img
             className="d-block w-100"
-            src={skalab}
+            src={inter2}
             alt="First slide"
            />
            <Carousel.Caption>
@@ -77,7 +77,7 @@ export default function Slider() {
         <Carousel.Item style={{'height': '600px'}} >
            <img
             className="d-block w-100"
-            src={skalab}
+            src={inter}
             alt="First slide"
            />
            <Carousel.Caption>
