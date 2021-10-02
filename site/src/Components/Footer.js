@@ -32,7 +32,7 @@ export const Footer = () => (
         alt="linkedin"
       />
       <ImgStyled
-        src="/instagram.png"
+        src="/facebook.png"
         width="100px"
         height="100px"
         alt="instagram"
