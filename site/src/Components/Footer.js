@@ -5,7 +5,8 @@ import React from "react";
 import { Container } from "react-bootstrap";
 
 const ImgStyled = styled.img`
-  margin: 46px;
+  margin: 15px;
+  
 `;
 
 export const Footer = () => (
@@ -14,8 +15,8 @@ export const Footer = () => (
       style={{
         display: "flex",
         justifyContent: "center",
-        padding: "50px",
-        width: "200px",
+        padding: "0px",
+        width: "50px",
       }}
     >
       <ImgStyled
