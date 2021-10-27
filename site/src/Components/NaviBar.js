@@ -1,10 +1,27 @@
+/* eslint-disable eslint-comments/disable-enable-pair */
+/* eslint-disable prettier/prettier */
+/* eslint-disable eslint-comments/disable-enable-pair */
+/* eslint-disable prettier/prettier */
+/* eslint-disable eslint-comments/no-duplicate-disable */
+/* eslint-disable eslint-comments/disable-enable-pair */
+/* eslint-disable prettier/prettier */
+/* eslint-disable eslint-comments/disable-enable-pair */
+/* eslint-disable eslint-comments/no-duplicate-disable */
+/* eslint-disable prettier/prettier */
+/* eslint-disable eslint-comments/disable-enable-pair */
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable eslint-comments/disable-enable-pair */
+/* eslint-disable import/no-unresolved */
+/* eslint-disable prettier/prettier */
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 
 import React, { useState } from "react";
-import { Navbar, Nav, Button, Container, Modal, Form } from "react-bootstrap";
+import { Navbar, Nav, Button, Container, Modal, Form  } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
+import LoginForm from './LoginForm/LoginForm'
 
 const Styles = styled.div`
   a,
@@ -78,6 +95,7 @@ export default function Navibar() {
           <Modal.Title>Log in</Modal.Title>
         </Modal.Header>
         <Modal.Body>
+          <LoginForm />
           <Form>
             <Form.Group controlId="formBasicEmail">
               <Form.Label>Email Adress</Form.Label>

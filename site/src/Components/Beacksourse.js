@@ -50,11 +50,11 @@ export default class Beacksourse extends Component {
               return <p> loading... </p>
            } else {
                return (
-                   <ul>
+                   <ul > 
                       {items.map(item => (
-                          <li key={item.idDrink}>
+                          <li key= {item.idDrink}>
                                {item.strDrink}
-                               <img src={item.strDrinkThumb} />
+                               <img width ="400px" height = "400px"  src={item.strDrinkThumb} />
                           </li>
                       ))}
                    </ul>

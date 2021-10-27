@@ -7,11 +7,11 @@ import loft from "./loft.jpg";
 import { Container, Col, Card, Button } from "react-bootstrap";
 import dis5 from "./dis5.jpg";
 import styled from "styled-components";
-import Beacksourse from "./Components/Beacksourse"
+
 
 export const Users = () => (
   <Container>
-    <Beacksourse/>
+    
     <Container
       style={{ marginBottom: "50px", background: "white", padding: "20px" }}
     >
