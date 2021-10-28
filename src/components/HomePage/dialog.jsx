@@ -1,3 +1,6 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable react/display-name */
+/* eslint-disable prettier/prettier */
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
@@ -7,44 +10,32 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 
-export default function Coll me() {
-  const [open, setOpen] = React.useState(false);
-
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
-
+export default props => {
   return (
     <div>
-      <Button variant="outlined" onClick={handleClickOpen}>
-        Open form dialog
-      </Button>
-      <Dialog open={open} onClose={handleClose}>
+      <Dialog open={props.isOpen} onClose={props.onRequestClose}>
         <DialogTitle>Subscribe</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            To subscribe to this website, please enter your email address here. We
-            will send updates occasionally.
+            To subscribe to this website, please enter your email address here.
+            We will send updates occasionally.
           </DialogContentText>
           <TextField
             autoFocus
             margin="dense"
             id="name"
-            label="Email Address"
+            label="phone"
             type="email"
             fullWidth
             variant="standard"
+            
           />
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose}>Cancel</Button>
-          <Button onClick={handleClose}>Subscribe</Button>
+          <Button onClick={props.onRequestClose}>Cancel</Button>
+          <Button onClick={props.onRequestClose}>Coll me</Button>
         </DialogActions>
       </Dialog>
     </div>
   );
-}
+};

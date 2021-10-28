@@ -8,9 +8,7 @@ import { api, fetchUtil } from '../../services/api';
 import './HomePage.css';
 import Slider from '../Slider/Slider';
 import { Opacity, OpenInBrowser, Title } from '@material-ui/icons';
-
-
-
+import Dialog from './dialog';
 
 export default function HomePage() {
   const [yogaEvents, setYogaEvents] = useState([]);
@@ -25,6 +23,11 @@ export default function HomePage() {
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
+
+  const [isDialogOpen, setDialogOpen] = useState(false);
+  const openDialog = () => setDialogOpen(true);
+  const closeDialog = () => setDialogOpen(false);
+
   const toTimeStamp = (eventTime) => new Date(eventTime).getTime();
   useEffect(() => {
     try {
@@ -149,7 +152,6 @@ export default function HomePage() {
             </Col>
           </Row>
         </Container>
-        
       </Container>
       <Container
         fluid
@@ -165,12 +167,31 @@ export default function HomePage() {
           backgroundRepeat: 'no-repeat',
         }}
       >
-         <h1 style={{ fontWeight: 'bold',fontSize:'150px',marginTop:'-700px',color:'#9b955f', }}>Create your own unique interior design </h1>
-           
-        
+        <h1
+          style={{
+            fontWeight: 'bold',
+            fontSize: '150px',
+            marginTop: '-700px',
+            color: '#9b955f',
+          }}
+        >
+          Create your own unique interior design{' '}
+        </h1>
 
+        <Button
+          onClick={openDialog}
+          style={{
+            fontWeight: 'bold',
+            position: 'absolute',
+            marginTop: '350px',
+            marginLeft: '810px',
+            width: '170px',
+          }}
+        >
+          Coll me
+        </Button>
       </Container>
-      
+
       <Container
         fluid
         style={{
@@ -234,6 +255,7 @@ export default function HomePage() {
           </Col>
         </Row>
       </Container>
+      <Dialog isOpen={isDialogOpen} onRequestClose={closeDialog} />
     </>
   );
 }
