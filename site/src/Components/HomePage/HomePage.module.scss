@@ -1,0 +1,43 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+
+.button__add {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  border: 0;
+  width: 250px;
+  height: 70px;
+
+  &:hover {
+    transition: 1s ease-in-out;
+    background: #013569;
+  }
+  &__text {
+    font-family: Montserrat;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .button__add {
+    justify-content: center;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button__add__text {
+    font-size: 12px;
+  }
+
+  .room__description__bookings {
+    font-size: 8px;
+  }
+}
